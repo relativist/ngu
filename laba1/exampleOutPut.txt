@@ -1,0 +1,32 @@
+1. with parameter
+
+
+rest ~/NGUOOP $ /usr/lib/jvm/java-7-openjdk/bin/java -Didea.launcher.port=7544 -Didea.launcher.bin.path=/usr/share/intellijidea-ce/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-7-openjdk/jre/lib/management-agent.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar:/home/rest/NGUOOP/target/classes:/usr/share/intellijidea-ce/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain First laba1/source.txt 
+arg size = 1
+Selected file: laba1/source.txt
+Total words: 18.0
+
+all     7       38.9%
+444     4       22.3%
+222     3       16.7%
+111     2       11.2%
+333     1       5.6%
+abc     1       5.6%
+
+
+2. without parameter
+
+rest ~/NGUOOP $ /usr/lib/jvm/java-7-openjdk/bin/java -Didea.launcher.port=7544 -Didea.launcher.bin.path=/usr/share/intellijidea-ce/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-7-openjdk/jre/lib/management-agent.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar:/home/rest/NGUOOP/target/classes:/usr/share/intellijidea-ce/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain First
+arg size = 0
+Selected file: ./laba1/source.txt
+Total words: 18.0
+
+all     7       38.9%
+444     4       22.3%
+222     3       16.7%
+111     2       11.2%
+333     1       5.6%
+abc     1       5.6%
+
+
+
